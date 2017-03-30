@@ -243,3 +243,77 @@ document.getElementById('change').src = buttonlink;
 
 </body>
 </html>
+
+<!-- css for entire site-->
+
+/* this defines the body of the entire website*/
+/* it also adds a background to the entire page*/
+.body {
+  margin: 0;
+  padding: 0;
+  background-image: url("background.jpg");
+  background-position: center center;
+}
+
+/* this styles the header to the website*/
+.div2{
+	font-family: Monotype corsiva;
+	text-align:center;
+	font-size: 90px;
+	background-color : white;
+	height : 40%;
+	color : LightSeaGreen;
+	margin-bottom : 3%;
+}
+
+/* this styles the tenor botton which is seen at the bottom of the page*/
+.button{
+	display : inline-block ;
+	background-color : LightSeaGreen ;
+	font-size : 50px ;
+	margin-left : 38%;
+	margin-top : 5px;
+	margin-bottom : 3%;
+}
+
+/* this styles the paragraph in the middle of the page which has the welcome greeting to the guests*/
+.div1 {
+	display : inline-block ;
+    background-color: white;
+    padding: 1%;
+    margin-left: 10%;
+	margin-top : 2%;
+	margin-bottom : 2%;
+	font-family : pristina;
+	border : 1px LightSeaGreen;
+	font-size : 25px;
+	color : LightSeaGreen;
+	text-align : center;
+}
+
+/* styles the footer of the page*/
+.footer {
+text-align : center;
+color: LightSeaGreen;
+font-size : 15px;
+}
+
+/* styles the div which the note buttons are contained in on the second page of the website*/
+.notebuttons {
+margin-top : 1%;
+margin-left : 4%;
+display : inline-block;
+color: LightSeaGreen;
+width : 30%;
+height : 15%;
+padding-top : 0;
+font-size : 30px;
+}
+
+/* styles each individual note button on the second page of the site*/
+.each {
+margin-top : 1%;
+margin-bottom : 1%;
+margin-left : 1%;
+margin-right : 1%;
+}
